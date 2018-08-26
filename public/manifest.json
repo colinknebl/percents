@@ -5,8 +5,8 @@
   "name": "Calculate Percents",
   "icons": [
     {
-      "src": "percent.png",
-      "sizes": "192x192 64x64 32x32 24x24 16x16",
+      "src": "bluePercent.png",
+      "sizes": "256x256 192x192 64x64 32x32 24x24 16x16",
       "type": "image/png"
     }
   ],
