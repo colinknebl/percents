@@ -1,0 +1,106 @@
+:root {
+  font-size: 16px;
+  --text-color: rgb(55, 55, 55);
+  --pri-color: rgb(74, 121, 171);
+  --border-radius: 0px;
+}
+html {
+  background: lightblue;
+}
+body {
+  box-sizing: border-box;
+  background: linear-gradient(var(--pri-color), lightblue);
+  color: var(--text-color);
+  text-align: center;
+}
+.App {
+  height: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 9fr 1fr;
+}
+header {
+  border-bottom: 2px solid var(--text-color);
+}
+h1 {
+  margin: 0;
+  padding: 1rem 0;
+  color: whitesmoke;
+}
+main {
+  padding: 1rem 0;
+}
+label {
+  display: block;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+label input {
+  border: 2px solid var(--pri-color);
+  border-radius: var(--border-radius);
+  background: whitesmoke;
+  font-size: 1rem;
+  padding: .5rem;
+  margin-left: .5rem;
+  outline: none;
+}
+label input:focus {
+  border: 2px solid red;
+}
+button {
+  border: 1px solid whitesmoke;
+  border-radius: var(--border-radius);
+  background: var(--pri-color);
+  color: whitesmoke;
+  padding: .5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  width: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color .25s, color 0s;
+}
+button:hover {
+  background-color: whitesmoke;
+  color: var(--text-color);
+}
+button:active  {
+  background-color: whitesmoke;
+  color: var(--text-color);
+}
+.weight-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 1rem auto;
+  width: 50%;
+  min-width: 200px;
+  max-width: 500px;
+}
+th, td {
+  border: 1px solid var(--text-color);
+  padding: .5rem;
+}
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+footer {
+  align-self: end;
+  padding: 1rem;
+}
+.footer-link {
+  color: var(--pri-color);
+  transition: color;
+}
+.footer-link:visited {
+  color: var(--pri-color);
+}
+.footer-link:hover {
+  color: whitesmoke;
+}
+.footer-link:active {
+  color: var(--text-color);
+}
