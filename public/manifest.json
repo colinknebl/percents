@@ -1,4 +1,6 @@
+
 {
+  "Author": "Colin Knebl",
   "short_name": "Percents",
   "name": "Calculate Percents",
   "icons": [
@@ -10,6 +12,6 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#4a79ab",
-  "background_color": "#4a79ab"
+  "theme_color": "#4A79AB",
+  "background_color": "#4A79AB"
 }
