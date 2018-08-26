@@ -20,13 +20,22 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 9fr 1fr;
 }
-header {
-  border-bottom: 2px solid var(--text-color);
-}
 h1 {
   margin: 0;
   padding: 1rem 0;
   color: whitesmoke;
+  position: relative;
+  display: inline-block;
+}
+h1:after {
+  content: '';
+  height: 3px;
+  width: 100%;
+  margin: auto;
+  background: whitesmoke;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
 }
 main {
   padding: 1rem 0;
